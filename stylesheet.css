@@ -16,36 +16,53 @@ header {
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
     border-bottom: 2px dashed;
     border-bottom-color: black;
-    padding: 20px 0;
+    padding: 10px 20px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    margin-left: 18px;
+    align-items: center;
 }
 
-.nav-links {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.nav-container {
     display: flex;
-    gap: 20px;
-}
-
-.nav-links li {
-    display: inline;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
 
-.nav-links a {
+/* hard-coded for now */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0 -30px 0 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links-blog {
+    list-style: none;
+    padding: 0 30px 9px 0;
+}
+
+.nav-container a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     position: relative;
 }
 
-.nav-links a:hover::after {
+.nav-container a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 
@@ -140,8 +157,13 @@ main .content {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+main .content .greeting {
+    font-size: 20pt;
+    margin-top: 0px;
+}
+
 main .bio {
-    font-size: 12pt;
+    font-size: 11.5pt;
     line-height: 1.5;
 }
 
@@ -150,6 +172,17 @@ main .container {
     height: auto;
 }
 
+/* News */
+.announcement {
+    list-style-type: none;
+    font-size: 12pt;
+}
+
+.announcement-date {
+    margin-left: 5px;
+    line-height: 2;
+    font-weight: bold;
+}
 
 
 /* Research */
@@ -253,6 +286,16 @@ ul {
 #rotating-globe {
     width: 17px;
     height: auto;
+}
+
+#boba {
+    padding-top: 20px;
+    width: 40px;
+    height: auto;
+}
+
+#blog {
+    text-shadow: 0px 0px 20px #3cd4fa;
 }
 
 

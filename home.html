@@ -7,7 +7,7 @@
 		<link rel="icon" type="image/png" href="images/brain-circuit3.PNG">
 
 		<!-- <meta> attributes go here -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- External CSS -->
 		<link rel="stylesheet" href="stylesheet.css">
@@ -36,25 +36,30 @@
 		                <!-- <p><i class="icon">&#xf081;</i> Twitter</p> -->
 		                <!-- <p><img src="images/google-scholar.svg" style="width: 12px; height: auto;"> Google Scholar</p> -->
 		            </div>
+		            <img src="images/boba.gif" alt=" " id="boba">
 	            </div>
 	        </aside>
 	        <main>
 				<!-- TODO: consider using iframe? -->
 			    <header>
-			        <nav>
+			        <nav class="nav-container">
 			            <ul class="nav-links">
 			            	<!-- TODO: replace with GitHub links -->
 			            	<li><a href="home.html" class="current-tab">Home</a></li>
+			            	<li><a href="News.html">News</a></li>
 			            	<li><a href="Research.html">Research</a></li>
 			                <!-- <li><a href="#publications">Publications</a></li> -->
 			                <!-- <li><a href="#talks">Talks</a></li> -->
 			                <li><a href="Teaching.html">Teaching</a></li>
 			                <li><a href="CV.html">CV</a></li>
 			            </ul>
+			            <ul class="nav-links-blog">
+			                <li><a href="Blog.html">Blog</a></li>
+			            </ul>
 			        </nav>
 			    </header>
 	            <div class="content" id="self-intro">
-                	<h1>Hello! &#128075;</h1>
+                	<h1 class="greeting">Hello!</h1> <!-- &#128075; -->
 	                <div class="bio">
 		                <p>
 		                	I am a second-year PhD student at the University of Maryland Vision and Learning Lab, where I am advised by Professor <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>. In addition to computer vision and deep learning research, I have also worked on problems in visual psychophysics under the guidance of Professor <a href="https://www2.bcs.rochester.edu/sites/haefnerlab/index.html">Ralf Haefner</a> and Professor <a href="http://www.sas.rochester.edu/bcs/people/faculty/deangelis_greg/index.html">Greg DeAngelis</a> to study human perception of moving objects during ego motion.
@@ -63,13 +68,18 @@
 							<b>I am very intrigued by human &times; machine intelligence.</b> In particular, I am interested in human-inspired (or even more broadly, bio-inspired) perception, 3D vision, and multimodal learning, inspired by the fact that, while humans depend most heavily on vision to perceive, other modalities such as hearing, touch, and vestibular cues are also essential to how we interpret the world around us. I am also interested in self-supervised learning or few-shot learning methods to incorporate insights from humans’ abilities to generalize with little curated data and to learn quickly and continuously. As such, my goal is to leverage multisensory information to help embodied agents not only to perceive – but also to understand and reason about – the dynamic 3D world better.
 		                </p>
 			        </div>
+			        <div style="height: 100%; display: flex; justify-content: flex-end; align-items: flex-end;">
+			        	&copy; <script>document.write(new Date().getFullYear())</script> Ji-Ze Genevieve Jang. All rights reserved.
+			        </div>
 	                <!-- <p style="margin-top: 1000px;">This is to create scrollable content for demo purposes.</p> -->
 	            </div>
 	        </main>
 	    </div>
-        <footer>
-        	&copy; <script>document.write(new Date().getFullYear())</script> Ji-Ze Genevieve Jang. All rights reserved.
-	    </footer>
+       <!--  <footer>
+        	<span>
+        		&copy; <script>document.write(new Date().getFullYear())</script> Ji-Ze Genevieve Jang. All rights reserved.
+        	</span>
+	    </footer> -->
 	</body>
 </html>
 
