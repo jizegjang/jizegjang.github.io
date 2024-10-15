@@ -185,6 +185,13 @@ main .container {
     font-weight: bold;
 }
 
+.announcement-content {
+    list-style-type: none;
+    font-size: 12pt;
+    margin-left: 107pt; /* TODO: might want to play around with this */
+    margin-bottom: 5pt; /* TODO: might want to play around with this */
+}
+
 
 /* Research */
 .research .article {
