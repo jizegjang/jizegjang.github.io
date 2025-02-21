@@ -94,7 +94,7 @@ nav {
 .container {
     display: flex;
     flex: 1;
-    overflow: hidden;
+    overflow-x: scroll;
     height: calc(100vh - 76px);
 }
 
@@ -142,7 +142,6 @@ main {
     /* order: 1; */
     flex: 1;
     padding: 20px;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
     background-color: rgba(202, 240, 252, 0.3); /* Originally #f0f0f0 */
