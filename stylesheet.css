@@ -177,6 +177,10 @@ main .container {
 .announcement {
     list-style-type: none;
     font-size: 12pt;
+    margin-left: 47pt;
+    margin-bottom: 5pt;
+    padding-left: 5em;
+    text-indent:-9em;
 }
 
 .announcement-date {
@@ -184,14 +188,6 @@ main .container {
     line-height: 2;
     font-weight: bold;
 }
-
-.announcement-content {
-    list-style-type: none;
-    font-size: 12pt;
-    margin-left: 107pt; /* TODO: might want to play around with this */
-    margin-bottom: 5pt; /* TODO: might want to play around with this */
-}
-
 
 /* Research */
 .research .article {
@@ -305,6 +301,7 @@ ul {
 #blog {
     text-shadow: 0px 0px 20px #3cd4fa;
 }
+
 
 
 /* from font-awesome.min.css */
