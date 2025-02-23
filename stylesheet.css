@@ -30,14 +30,13 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    margin: 20px 0 20px 0; /* hard-coded for now */
 }
 
-/* hard-coded for now */
 .nav-links {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0 -30px 0 0;
     margin: 0;
     flex-grow: 1;
 }
@@ -53,6 +52,7 @@ nav {
 .nav-links-blog {
     list-style: none;
     padding: 0 30px 9px 0;
+    margin: 0 0 0 20px;
 }
 
 .nav-container a {
@@ -273,7 +273,6 @@ footer {
 }
 
 
-
 /* stand-alone */
 h1 {
     font-size: 20pt;
@@ -313,7 +312,6 @@ ul {
 #blog {
     text-shadow: 0px 0px 20px #3cd4fa;
 }
-
 
 
 /* from font-awesome.min.css */
