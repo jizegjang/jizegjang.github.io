@@ -98,6 +98,11 @@ nav {
     height: calc(100vh - 76px);
 }
 
+.sub-container {
+    display: flex;
+    flex: 1;
+}
+
 aside {
 	/* order: 2; */
     width: 270px;
@@ -191,6 +196,13 @@ main .container {
 /* Research */
 .research .article {
     line-height: 1.5;
+    display: flex;
+    flex: 1;
+}
+
+.research .article img {
+    height: 130px;
+    padding-right: 10px;
 }
 
 .research .title {
@@ -225,29 +237,30 @@ main .container {
 
 
 /* CV & Education */
-.education .container {
+.education .sub-container {
     display: flex;
     flex-direction: row;
     text-align: center;
 }
 
-.education .container div {
+.education .sub-container div {
     width: 300px;
 }
 
-.education .container #UR img {
+.education .sub-container #UR img {
     width: 120px;
 }
 
-.education .container #UR .text {
+.education .sub-container .text {
     line-height: 1.5;
 }
 
-.education .container #UMD img {
+.education .sub-container #UMD img {
     width: 119px;
+    margin-top: -5px;
 }
 
-.education .container .school {
+.education .sub-container .school {
     font-size: 12pt;
     font-weight: bold;
 }
