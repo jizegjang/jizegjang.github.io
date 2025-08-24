@@ -234,9 +234,12 @@ main .container {
     font-size: 12pt;
 }
 
+.teaching .position .courses {
+    font-size: 9.75pt; /* I guess I need to specify this explicitly */
+}
 
 
-/* CV & Education */
+/* CV - Education & Languages */
 .education .sub-container {
     display: flex;
     flex-direction: row;
@@ -263,6 +266,10 @@ main .container {
 .education .sub-container .school {
     font-size: 12pt;
     font-weight: bold;
+}
+
+#regular-text {
+    font-size: 9.5pt;
 }
 
 footer {
@@ -292,6 +299,8 @@ ul {
     border-radius: 50%;
     width: 180px;
     height: auto; /* Keep aspect ratio */
+    object-fit: cover;
+    -webkit-user-drag: none;
 }
 
 #profile-pic-text {
