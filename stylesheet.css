@@ -322,6 +322,12 @@ ul {
     text-shadow: 0px 0px 20px #3cd4fa;
 }
 
+#visitor-globe {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
 
 /* from font-awesome.min.css */
 .icon {
