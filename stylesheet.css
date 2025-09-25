@@ -112,7 +112,7 @@ aside {
     display: flex;
     flex-direction: column;
     /* Make the sidebar scrollable */
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .sidebar {
