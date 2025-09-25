@@ -106,7 +106,7 @@ nav {
 
 aside {
 	/* order: 2; */
-    width: 280px;
+    width: 19%; /*width: 280px;*/
     padding: 18px;
     box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
     display: flex;
