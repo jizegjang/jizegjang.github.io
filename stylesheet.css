@@ -311,6 +311,7 @@ ul {
 #rotating-globe {
     width: 17px;
     height: auto;
+    -webkit-user-drag: none;    
 }
 
 #boba {
@@ -328,6 +329,7 @@ ul {
 #visitors {
     padding-top: 18px; /* hard-coded for now */
     opacity: 0.5;
+    -webkit-user-drag: none;    
 }
 
 
