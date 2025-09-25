@@ -325,6 +325,11 @@ ul {
 
 /* Visitors: apparently GitHub Pages doesn't support server-side processing :( */
 
+#visitors {
+    padding-top: 18px; /* hard-coded for now */
+    opacity: 0.5;
+}
+
 
 /* from font-awesome.min.css */
 .icon {
