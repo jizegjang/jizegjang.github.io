@@ -36,10 +36,7 @@
 		                <!-- <p><i class="icon">&#xf081;</i> Twitter</p> -->
 		                <!-- <p><img src="images/google-scholar.svg" style="width: 12px; height: auto;"> Google Scholar</p> -->
 		            </div>
-		            <!-- <img src="images/boba.gif" alt=" " id="boba"> -->
-		            <div id="visitor-globe" style="width: 100px; height: 100px;">
-		            	<script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=YJWWGNKaHPP988C1_M9xUhM-yM2huPM6Gzut_mi1rKs"></script>
-		            </div>
+		            <img src="images/boba.gif" alt=" " id="boba">
 	            </div>
 	        </aside>
 	        <main>
@@ -97,5 +94,11 @@
 
 <!-- JavaScript -->
 <script>
-
+	document.addEventListener("DOMContentLoaded", () => {
+	    const sidebar = document.querySelector('aside');
+	    const content = document.querySelector('main');
+	    console.log(sidebar.clientHeight);
+	    console.log(content.clientHeight);
+	    console.log("Sidebar content height:", sidebar.scrollHeight); // NOTE: different from sidebar height and content height!
+	});
 </script>
