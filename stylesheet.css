@@ -128,6 +128,7 @@ aside {
 .sidebar .content {
 	text-align: left;
 	margin-left: 10px;
+    padding-top: 10px;
 }
 
 .sidebar .content a:link {
@@ -308,7 +309,7 @@ ul {
 }
 
 #profile-pic-text {
-    @extend .sidebar .content;
+    /*@extend .sidebar .content;*/
 }
 
 #rotating-globe {
@@ -321,7 +322,7 @@ ul {
     padding-top: 20px;
     width: 40px;
     height: auto;
-    opacity: 0.0;
+    /*opacity: 0.0;*/
     -webkit-user-drag: none;
 }
 
@@ -337,7 +338,7 @@ ul {
 }
 
 #visitor-map {
-     padding-top: 18px; /* NOTE: hard-coded for now */
+    padding-top: 18px; /* NOTE: hard-coded for now */
     opacity: 0.5;
     -webkit-user-drag: none;
 }
