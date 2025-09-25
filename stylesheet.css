@@ -204,6 +204,7 @@ main .container {
 .research .article img {
     height: 130px;
     padding-right: 10px;
+    -webkit-user-drag: none;
 }
 
 .research .title {
@@ -253,6 +254,7 @@ main .container {
 
 .education .sub-container #UR img {
     width: 120px;
+    -webkit-user-drag: none;
 }
 
 .education .sub-container .text {
@@ -262,6 +264,7 @@ main .container {
 .education .sub-container #UMD img {
     width: 119px;
     margin-top: -5px;
+    -webkit-user-drag: none;    
 }
 
 .education .sub-container .school {
@@ -318,6 +321,7 @@ ul {
     padding-top: 20px;
     width: 40px;
     height: auto;
+    -webkit-user-drag: none;
 }
 
 #blog {
