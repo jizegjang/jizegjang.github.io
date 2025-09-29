@@ -29,16 +29,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    margin: 20px 0 20px 0; /* hard-coded for now */
+    gap: 40px;
 }
 
-.nav-links {
+.nav-links,
+.nav-links-blog {
     display: flex;
-    justify-content: center;
     list-style: none;
     margin: 0;
-    flex-grow: 1;
+    padding: 0;
+    gap: 20px;
+    flex-grow: 0;
 }
 
 .nav-links li {
@@ -47,12 +48,6 @@ nav {
 
 .nav-links li:last-child {
     margin-right: 0;
-}
-
-.nav-links-blog {
-    list-style: none;
-    padding: 0 30px 9px 0;
-    margin: 0 0 0 20px;
 }
 
 .nav-container a {
@@ -438,7 +433,7 @@ ul {
         margin-right: 0;
     }
     .current-tab {
-        font-size: 14pt;
+        font-size: 18pt;
     }
     .education .sub-container,
     .research .article {
