@@ -111,7 +111,7 @@ aside {
     display: flex;
     flex-direction: column;
     /* Make the sidebar scrollable */
-    /* overflow-y: auto; */
+     overflow-y: auto; 
 }
 
 .sidebar {
@@ -377,7 +377,6 @@ ul {
 @media (max-width: 400px) {
     aside {
         width: 100%;
-        overflow-y: auto;
     }
     main .content {
         width: 100%;
@@ -421,6 +420,10 @@ ul {
     }
     main {
 
+    }
+    #visitor-map {
+        width: 210px;
+        height: auto;
     }
 }
 
