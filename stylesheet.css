@@ -396,7 +396,8 @@ ul {
     main .content {
         overflow-y: visible;
         margin: 0;
-        padding: 20px 15px 15px 15px;
+        padding: 30px 15px 15px 15px;
+        gap: 50px;
     }
     #copyright {
         padding-top: 10px;
@@ -455,6 +456,9 @@ ul {
     .education .sub-container .institution:not(:last-child) {
         margin-bottom: 30px;
         padding-bottom: 0;
+    }
+    .notice {
+        margin: 0;
     }
     .announcement {
         margin-left: 5px;
