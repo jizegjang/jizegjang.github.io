@@ -382,10 +382,10 @@ ul {
         height: 100vh; /* full viewport height ? */
     }
     aside {
-        flex: 0 0 30%;
+        flex: 0 0 20%;
     }
     main {
-        flex: 0 0 70%;
+        flex: 0 0 80%;
         overflow-y: auto;
     }
     #profile-pic {
@@ -396,6 +396,18 @@ ul {
     }
     .nav-container {
         flex-wrap: wrap;
+        font-size: 11pt;
+    }
+    .current-tab {
+        font-size: 14pt;
+    }
+
+    .education .sub-container,
+    .research .article {
+        flex-direction: column;
+    }
+    .announcement {
+        text-indent: 0;
     }
 }
 
