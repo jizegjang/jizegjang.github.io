@@ -373,8 +373,11 @@ ul {
 
 /* responsive design */
 @media (max-width: 400px) {
+    aside {
+        overflow-y: auto;
+    }
     main .content {
-        padding: 15px 20px 10px 20px;
+        padding: 10px 15px 5px 15px;
     }
     .nav-container {
         font-size: 14px;
