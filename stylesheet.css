@@ -379,12 +379,23 @@ ul {
         flex-direction: column; /* Original side-by-side layout did not work well */
         width: 100%;
         min-width: 100%;
+        height: 100vh; /* full viewport height ? */
+    }
+    aside {
+        flex: 0 0 30%;
+    }
+    main {
+        flex: 0 0 70%;
+        overflow-y: auto;
     }
     #profile-pic {
         width: 150px;
     }
     .sidebar .name {
         font-size: 20pt;
+    }
+    .nav-container {
+        flex-wrap: wrap;
     }
 }
 
