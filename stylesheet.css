@@ -453,7 +453,8 @@ ul {
         flex-direction: column;
     }
     .education .sub-container .institution:not(:last-child) {
-        padding-bottom: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
     }
     .announcement {
         margin-left: 5px;
