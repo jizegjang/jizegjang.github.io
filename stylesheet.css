@@ -390,7 +390,11 @@ ul {
     main {
         flex: 0 0 80%;
         padding: 5px;
-        overflow-y: auto;
+        /*overflow-y: auto;*/
+        display: block;
+    }
+    main .content {
+        overflow-y: visible;
     }
     #profile-pic {
         width: 160px;
@@ -402,13 +406,16 @@ ul {
     .nav-container {
         flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-grow: 0;
         font-size: 11pt;
-        margin: 5px;
+        margin: 0;
+        padding: 0;
     }
     .nav-links {
         flex-grow: 0;
         justify-content: flex-start;
+        margin: 0;
+        padding: 0;
     }
     .current-tab {
         font-size: 14pt;
