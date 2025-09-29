@@ -400,6 +400,8 @@ ul {
         font-size: 20pt;
     }
     .nav-container {
+        flex-direction: column;
+        justify-content: center;
         flex-wrap: wrap;
         font-size: 11pt;
         margin: 5px;
