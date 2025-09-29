@@ -395,8 +395,8 @@ ul {
     }
     main .content {
         overflow-y: visible;
-        margin: 5px;
-        padding: 5px;
+        margin: 0;
+        padding: 10px 5px 5px 5px;
     }
     #copyright {
         padding-top: 10px;
