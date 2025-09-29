@@ -440,17 +440,6 @@ ul {
     .current-tab {
         font-size: 14pt;
     }
-    .current-tab-phone { /* TODO: use JavaScript? */
-        transform: scaleX(1);
-        transform-origin: bottom left;
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        bottom: 4px;
-        left: 0;
-        font-size: 14pt;
-    }
     .education .sub-container,
     .research .article {
         flex-direction: column;
