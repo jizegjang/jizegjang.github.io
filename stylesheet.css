@@ -377,34 +377,15 @@ ul {
 @media (max-width: 400px) {
     .container {
         flex-direction: column; /* Original side-by-side layout did not work well */
+        width: 100%;
+        min-width: 100%;
     }
     #profile-pic {
-        width: 130px;
+        width: 150px;
     }
     .sidebar .name {
-        font-size: 18pt;
+        font-size: 20pt;
     }
-/*    main .content {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 15px 20px 10px 20px;
-    }
-    .nav-container {
-        width: 100%;
-        font-size: 10pt;
-    }
-    .current-tab {
-        font-size: 12pt;
-    }
-    #regular-text, #copyright {
-        font-size: 9pt;
-    }
-    #blog {
-        text-shadow: 0px 0px 20px #3cb1fa;
-    }
-    .blog-posts h2 {
-        font-size: 12pt;
-    }*/
 }
 
 /* Laptop */
