@@ -371,15 +371,26 @@ ul {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* TODO: refine responsive design */
+/* TODO: refine responsive design (esp. for phone) */
 
 /* Phone */
 @media (max-width: 400px) {
     aside {
         width: 100%;
     }
+    #profile-pic {
+        width: 150px;
+        height: auto;
+    }
+    .sidebar .name {
+        font-size: 20pt;
+    }
+    main {
+        min-width: 0;
+    }
     main .content {
         width: 100%;
+        box-sizing: border-box;
         padding: 15px 20px 10px 20px;
     }
     .nav-container {
