@@ -378,7 +378,7 @@ ul {
     .container {
         flex-direction: column; /*  */
     }
-    aside {
+/*    aside {
         width: 100%;
     }
     #profile-pic {
@@ -412,7 +412,7 @@ ul {
     }
     .blog-posts h2 {
         font-size: 12pt;
-    }
+    }*/
 }
 
 /* Laptop */
