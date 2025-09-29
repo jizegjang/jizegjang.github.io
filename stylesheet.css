@@ -422,6 +422,14 @@ ul {
         padding-left: 0;
         text-indent: 0;
     }
+    main .content,
+    header,
+    aside,
+    footer,
+    #blog {
+        text-shadow: none;
+        box-shadow: none;
+    }
 }
 
 /* Laptop */
