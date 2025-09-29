@@ -372,7 +372,7 @@ ul {
 }
 
 /* adjust formatting based on window/screen size */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     aside {
         width: 100%;
     }
@@ -385,7 +385,7 @@ ul {
     }
 }
 
-@media (min-width: 1299px) and (max-width: 901) {
+@media (min-width: 1369px) and (max-width: 1001) {
     aside {
         width: 20%;
     }
