@@ -375,12 +375,16 @@ ul {
 
 /* Phone */
 @media (max-width: 400px) {
+    .container {
+        flex-direction: column; /*  */
+    }
     aside {
         width: 100%;
     }
     #profile-pic {
-        width: 150px;
+        width: 100%;
         height: auto;
+        display: block;
     }
     .sidebar .name {
         font-size: 20pt;
