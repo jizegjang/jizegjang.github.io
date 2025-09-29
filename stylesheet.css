@@ -401,7 +401,7 @@ ul {
     main .content,
     main .research,
     main .teaching {
-        gap: 15px;
+        gap: 5px;
     }
     #copyright {
         padding-top: 10px;
@@ -419,6 +419,7 @@ ul {
         align-items: center;
         margin: 0;
         padding: 0;
+        gap: 10px;
     }
     .nav-links,
     .nav-links-blog {
