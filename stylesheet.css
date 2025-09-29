@@ -29,10 +29,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
 }
 
-.nav-links,
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
 .nav-links-blog {
     display: flex;
     list-style: none;
