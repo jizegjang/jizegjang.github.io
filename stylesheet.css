@@ -395,6 +395,8 @@ ul {
     }
     main .content {
         overflow-y: visible;
+        margin: 0;
+        padding: 0;
     }
     #profile-pic {
         width: 160px;
@@ -415,7 +417,7 @@ ul {
         flex-grow: 0;
         justify-content: flex-start;
         margin: 0;
-        padding: 0;
+        padding-bottom: 5px;
     }
     .current-tab {
         font-size: 14pt;
