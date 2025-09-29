@@ -418,9 +418,21 @@ ul {
     }
     .nav-links {
         flex-grow: 0;
-        justify-content: flex-start;
         margin: 0;
-        padding-bottom: 8px;
+        padding-top: 5px;
+        padding-bottom: 2.5px;
+    }
+    .nav-links-blog {
+        flex-grow: 0;
+        margin: 0;
+        padding-top: 2.5px;
+        padding-bottom: 5px;
+    }
+    .nav-links li, .nav-links-blog li {
+        margin-right: 10px;
+    }
+    .nav-links li:last-child, .nav-links-blog li:last-child {
+        margin-right: 0;
     }
     .current-tab {
         font-size: 14pt;
