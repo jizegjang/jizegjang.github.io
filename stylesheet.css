@@ -376,23 +376,15 @@ ul {
 /* Phone */
 @media (max-width: 400px) {
     .container {
-        flex-direction: column; /*  */
-    }
-/*    aside {
-        width: 100%;
+        flex-direction: column; /* Original side-by-side layout did not work well */
     }
     #profile-pic {
-        width: 100%;
-        height: auto;
-        display: block;
+        width: 130px;
     }
     .sidebar .name {
-        font-size: 20pt;
+        font-size: 18pt;
     }
-    main {
-        min-width: 0;
-    }
-    main .content {
+/*    main .content {
         width: 100%;
         box-sizing: border-box;
         padding: 15px 20px 10px 20px;
