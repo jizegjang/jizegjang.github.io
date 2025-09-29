@@ -106,7 +106,7 @@ nav {
 
 aside {
 	/* order: 2; */
-    width: 19%; /*width: 280px;*/
+    width: 20%; /*width: 280px;*/
     padding: 18px;
     box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -370,4 +370,18 @@ ul {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* adjust formatting based on window size */
+@media (max-width: 1000px) {
+    aside {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    #profile-pic {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
