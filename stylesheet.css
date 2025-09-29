@@ -395,8 +395,11 @@ ul {
     }
     main .content {
         overflow-y: visible;
-        margin: 0;
-        padding: 0;
+        margin: 5px;
+        padding: 5px;
+    }
+    #copyright {
+        padding-top: 10px;
     }
     #profile-pic {
         width: 160px;
@@ -417,7 +420,7 @@ ul {
         flex-grow: 0;
         justify-content: flex-start;
         margin: 0;
-        padding-bottom: 5px;
+        padding-bottom: 8px;
     }
     .current-tab {
         font-size: 14pt;
