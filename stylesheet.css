@@ -371,7 +371,19 @@ ul {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* adjust formatting based on window/screen size */
+/* responsive design */
+@media (max-width: 400px) {
+    main .content {
+        padding: 15px 20px 10px 20px;
+    }
+    .nav-container {
+        font-size: 14px;
+    }
+    .current-tab {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 1000px) {
     aside {
         width: 100%;
@@ -385,7 +397,7 @@ ul {
     }
 }
 
-@media (min-width: 1369px) and (max-width: 1001) {
+@media (min-width: 1399px) and (max-width: 1001) {
     aside {
         width: 20%;
     }
@@ -394,7 +406,16 @@ ul {
     }
 }
 
-@media (min-width: 1370px) {
+@media (min-width: 1400px) {
+    aside {
+        width: 300px;
+    }
+    main {
+
+    }
+}
+
+@media (min-width: 1700px) {
     aside {
         width: 400px;
     }
