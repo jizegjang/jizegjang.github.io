@@ -96,7 +96,7 @@ nav {
     align-items: stretch;
     flex: 1;
     /* overflow-x: scroll; */
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 .sub-container {
@@ -371,7 +371,7 @@ ul {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* responsive design */
+/* TODO: refine responsive design */
 
 /* Phone */
 @media (max-width: 400px) {
@@ -379,18 +379,24 @@ ul {
         width: 100%;
     }
     main .content {
-        /*background-color: #ff3fff;*/
         width: 100%;
         padding: 15px 20px 10px 20px;
     }
     .nav-container {
         width: 100%;
+        font-size: 10pt;
     }
     .current-tab {
-        font-size: 18px;
+        font-size: 12pt;
     }
-    #regular-text {
-        font-size: 9px;
+    #regular-text, #copyright {
+        font-size: 9pt;
+    }
+    #blog {
+        text-shadow: 0px 0px 20px #3cb1fa;
+    }
+    .blog-posts h2 {
+        font-size: 12pt;
     }
 }
 
