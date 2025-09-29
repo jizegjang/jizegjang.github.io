@@ -29,23 +29,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    margin: 20px 0 20px 0; /* hard-coded for now */
 }
 
 .nav-links {
     display: flex;
-    list-style: none;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links-blog {
-    display: flex;
+    justify-content: center;
     list-style: none;
     margin: 0;
-    padding: 0;
-    gap: 20px;
-    flex-grow: 0;
+    flex-grow: 1;
 }
 
 .nav-links li {
@@ -54,6 +47,12 @@ nav {
 
 .nav-links li:last-child {
     margin-right: 0;
+}
+
+.nav-links-blog {
+    list-style: none;
+    padding: 0 30px 9px 0;
+    margin: 0 0 0 20px;
 }
 
 .nav-container a {
@@ -414,8 +413,43 @@ ul {
     .sidebar .name {
         font-size: 20pt;
     }
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
+    .nav-links,
+    .nav-links-blog {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-links li,
+    .nav-links-blog li {
+        margin-right: 20px;
+    }
+    .nav-links li:last-child,
+    .nav-links-blog li:last-child {
+        margin-right: 0;
+    }
     .current-tab {
-        font-size: 18pt;
+        font-size: 14pt;
+    }
+    .current-tab-phone { /* TODO: use JavaScript? */
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 4px;
+        left: 0;
+        font-size: 14pt;
     }
     .education .sub-container,
     .research .article {
