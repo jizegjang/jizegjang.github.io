@@ -23,7 +23,7 @@
 	    <div class="container">
 	        <aside>
 	            <div class="sidebar">
-	                <img src="images/jizejang.PNG" alt="Ji-Ze G. Jang" id="profile-pic">
+	                <img src="images/jizejang.PNG" alt="Ji-Ze G. Jang" id="profile-pic" draggable="false">
 	                <h1 class="name">Ji-Ze G. Jang</h1>
 	                <!-- TODO: animate this? -->
 	                <span id="profile-pic-text"><img src="images/globe.gif" alt=" " id="rotating-globe"> 嗨~ 안녕^^ приветик)) salut :) こんにちは</span>
@@ -60,7 +60,7 @@
 			    </header>	        	
 	            <div class="content">
 		            <!-- TODO: reorganize this -->
-		            <p style="text-align: center;"><em>Full CV will be available soon! Please see <a href="https://www.linkedin.com/in/ji-ze-genevieve-jang-tech">LinkedIn</a> for now.</em></p>
+		            <p id="regular-text" style="text-align: center; font-style: italic;">Full CV will be available soon! Please see <a href="https://www.linkedin.com/in/ji-ze-genevieve-jang-tech">LinkedIn</a> for now.</p>
 		            <br></br>
 		            <div class="education">
 			            <h2>Education</h2>
@@ -71,7 +71,7 @@
 		            			<br>
 		            			<div class="text">
 									<span class="school">University of Rochester '22</span>
-			            			<div class="degree">
+			            			<div id="regular-text">
 			            				<span>B.S. in Computer Science</span>
 			            				<br>
 			            				<span>B.S. in Brain and Cognitive Sciences</span>
@@ -88,7 +88,7 @@
 			            		<br>
 		            			<div class="text">
 									<span class="school">University of Maryland, College Park</span>
-			            			<div class="degree">
+			            			<div id="regular-text">
 			            				<span>PhD Student / Graduate Research Assistant</span>
 			            			</div>
 			            		</div>
@@ -100,7 +100,7 @@
 			            <h2>Languages</h2>
 			            <div class="sub-container">
 			            	<div id="foreign-lang">
-			            		<ul>
+			            		<ul id="regular-text">
 			            			<li>English <span style="color: gray">(native)</span></li>
 			            			<li>Chinese / 中文 <span style="color: gray">(native)</span></li>
 			            			<li>Korean / 한국어</li>
@@ -110,9 +110,9 @@
 			            		</ul>
 			            	</div>
 			            </div>
-			            <div>
+			            <div class="sub-container">
 			            	<div id="programming-lang">
-			            		<ul>
+			            		<ul id="regular-text">
 			            			<li>Python</li>
 			            			<li>Java</li>
 			            			<li>C / C++</li>

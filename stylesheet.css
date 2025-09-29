@@ -237,10 +237,6 @@ main .container {
     font-size: 12pt;
 }
 
-.teaching .position .courses {
-    font-size: 9.75pt; /* I guess I need to specify this explicitly */
-}
-
 
 /* CV - Education & Languages */
 .education .sub-container {
@@ -273,10 +269,6 @@ main .container {
     font-weight: bold;
 }
 
-#regular-text {
-    font-size: 9.5pt;
-}
-
 footer {
     background-color: #f0f0f0;
     text-align: center;
@@ -298,6 +290,10 @@ h2 {
 
 ul {
     line-height: 1.5;
+}
+
+#regular-text {
+    font-size: 10pt;
 }
 
 #profile-pic {
