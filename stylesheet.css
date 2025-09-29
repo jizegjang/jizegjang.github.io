@@ -402,6 +402,10 @@ ul {
         font-size: 11pt;
         margin: 5px;
     }
+    .nav-links {
+        flex-grow: 0;
+        justify-content: flex-start;
+    }
     .current-tab {
         font-size: 14pt;
     }
