@@ -3,7 +3,7 @@
 <!-- HTML -->
 <html lang="en">
 	<head>
-		<title>Ji-Ze Jang's Homepage</title>
+		<title>Ji-Ze G. Jang's Homepage</title>
 		<link rel="icon" type="image/png" href="images/brain-circuit3.PNG">
 
 		<!-- <meta> attributes go here -->
@@ -104,6 +104,15 @@
 	    console.log(content.clientHeight);
 	    console.log("Sidebar content height: ", sidebar.scrollHeight); // NOTE: different from sidebar height and content height!
 
-	    console.log("Window dimensions: " + document.documentElement.clientWidth + "x" + document.documentElement.clientHeight);
+	    function logWindowDimensions() {
+		    console.log(
+		    	"Window dimensions: " +
+		    	document.documentElement.clientWidth +
+		    	"x" +
+		    	document.documentElement.clientHeight
+		    );	    	
+	    }
+	    logWindowDimensions();
+	    window.addEventListener("resize", logWindowDimensions);
 	});
 </script>
