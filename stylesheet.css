@@ -397,7 +397,11 @@ ul {
         overflow-y: visible;
         margin: 0;
         padding: 30px 15px 15px 15px;
-        gap: 50px;
+    }
+    main .content,
+    main .research,
+    main .teaching {
+        gap: 15px;
     }
     #copyright {
         padding-top: 10px;
@@ -410,29 +414,26 @@ ul {
         font-size: 20pt;
     }
     .nav-container {
+        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        flex-grow: 0;
-        font-size: 11pt;
+        align-items: center;
         margin: 0;
         padding: 0;
     }
-    .nav-links {
-        flex-grow: 0;
-        margin: 0;
-        padding-top: 5px;
-        padding-bottom: 2.5px;
-    }
+    .nav-links,
     .nav-links-blog {
-        flex-grow: 0;
+        list-style: none;
         margin: 0;
-        padding-top: 2.5px;
-        padding-bottom: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
-    .nav-links li, .nav-links-blog li {
-        margin-right: 10px;
+    .nav-links li,
+    .nav-links-blog li {
+        margin-right: 20px;
     }
-    .nav-links li:last-child, .nav-links-blog li:last-child {
+    .nav-links li:last-child,
+    .nav-links-blog li:last-child {
         margin-right: 0;
     }
     .current-tab {
