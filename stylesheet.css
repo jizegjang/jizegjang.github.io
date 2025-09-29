@@ -410,7 +410,7 @@ ul {
     }
     .nav-container {
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         flex-grow: 0;
         font-size: 11pt;
         margin: 0;
@@ -426,7 +426,7 @@ ul {
         flex-grow: 0;
         margin: 0;
         padding-top: 2.5px;
-        padding-bottom: 5px;
+        padding-bottom: 0;
     }
     .nav-links li, .nav-links-blog li {
         margin-right: 10px;
@@ -453,7 +453,7 @@ ul {
         flex-direction: column;
     }
     .education .sub-container .institution:not(:last-child) {
-        margin-right: 30px; /* Similar to .article */
+        padding-right: 30px; /* Similar to .article */
     }
     .announcement {
         margin-left: 5px;
