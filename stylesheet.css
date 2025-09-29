@@ -165,17 +165,13 @@ main .content {
 }
 
 main .content .greeting {
-    font-size: 20pt;
+    font-size: 18pt;
     margin-top: 0px;
 }
 
 main .content .notice {
     text-align: center;
     font-style: italic;
-}
-
-main .bio {
-    line-height: 1.5;
 }
 
 main .container {
@@ -299,6 +295,10 @@ ul {
 #regular-text {
     font-size: 10pt;
     -webkit-text-size-adjust: 100%;
+}
+
+.bio {
+    line-height: 2;
 }
 
 #profile-pic {
