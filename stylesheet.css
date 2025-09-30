@@ -456,6 +456,7 @@ ul {
     }
     .current-tab {
         font-size: 14pt;
+        text-shadow: 0px 0px 20px #3cd4fa;
     }
     .current-tab-phone { /* TODO: use JavaScript? */
         transform: scaleX(1);
