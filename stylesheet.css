@@ -170,6 +170,10 @@ main .content {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+main .content .cv-section {
+    margin-bottom: 30px;
+}
+
 main .content .greeting {
     font-size: 20pt;
     margin-top: 0px;
@@ -178,11 +182,7 @@ main .content .greeting {
 main .content .notice {
     text-align: center;
     font-style: italic;
-}
-
-main .container {
-    display: flex;
-    height: auto;
+    padding-bottom: 16px; /* Spacing for one <br> */
 }
 
 /* News */
