@@ -258,7 +258,7 @@ main .content .notice {
 }
 
 .education .sub-container #UR img {
-    width: 120px;
+    height: 120px;
     -webkit-user-drag: none;
 }
 
@@ -267,8 +267,7 @@ main .content .notice {
 }
 
 .education .sub-container #UMD img {
-    width: 119px;
-    margin-top: -5px;
+    height: 120px;
     -webkit-user-drag: none;    
 }
 
